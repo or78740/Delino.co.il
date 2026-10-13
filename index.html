@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delino – בית קפה וקונדיטוריה בבאר שבע</title>
+<meta name="description" content="Delino, בית קפה וקונדיטוריה בבאר שבע: מאפי חמאה, כריכים, פיצות, פסטה וקפה. הע״ל 30, טלפון 08-916-0706.">
+<meta name="theme-color" content="#135198">
+<meta property="og:title" content="Delino – בית קפה וקונדיטוריה בבאר שבע">
+<meta property="og:description" content="מאפי חמאה טריים, כריכים, פיצות, פסטה וקפה.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="he_IL">
+<link rel="icon" type="image/png" href="delino-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Delino","url":"https://delino.co.il/","telephone":"+972-8-916-0706","image":"https://delino.co.il/delino-logo.png","address":{"@type":"PostalAddress","streetAddress":"הע״ל 30","addressLocality":"באר שבע","addressCountry":"IL"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday","Monday","Tuesday","Wednesday","Thursday"],"opens":"07:30","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"07:30","closes":"14:00"}]}
+</script>
+<style>
+:root{--blue:#135198;--butter:#F4E3A1;--butter-soft:#FBF1C6;--paper:#FFFEFA;--red:#B8321F;--muted:#35567F}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Assistant',system-ui,sans-serif;font-size:18px;line-height:1.55;color:var(--blue);background:var(--paper)}
+a{color:inherit}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.dark a:focus-visible,.dark button:focus-visible{outline-color:var(--butter)}
+h1,h2,h3{font-family:'Frank Ruhl Libre',serif}
+.wrap{max-width:1180px;margin:0 auto}
+.topbar{background:var(--butter);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px;padding:16px 56px}
+.topbar img{width:72px;height:72px;display:block}
+.topbar nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px;font-weight:600}
+.topbar nav a{display:inline-flex;align-items:center;min-height:44px}
+.topbar nav a.call{padding:0 20px;background:var(--blue);color:var(--paper);text-decoration:none}
+.hero{background:var(--butter);padding:48px 56px 88px}
+.hero .wrap{display:flex;flex-direction:column;gap:24px}
+.hero h1{margin:0;font-weight:900;font-size:clamp(40px,7vw,76px);line-height:1.08;max-width:14em}
+.hero p{margin:0;max-width:34em;font-size:22px}
+.btns{display:flex;flex-wrap:wrap;gap:16px}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 32px;font-weight:700;font-size:20px;text-decoration:none}
+.btn.primary{background:var(--red);color:#fff}
+.btn.line{border:2px solid var(--blue)}
+.rating{font-weight:600}
+section.pad{padding:88px 56px}
+h2{margin:0 0 8px;font-weight:900;font-size:48px;line-height:1.15}
+.lead{margin:0 0 32px}
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:40px}
+.tab{min-height:44px;padding:0 22px;border:2px solid var(--blue);background:transparent;color:var(--blue);font:700 18px 'Assistant',sans-serif;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--blue);color:var(--paper)}
+.items{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 56px}
+.items[hidden]{display:none}
+.item{flex:1 1 460px;min-width:0;padding:18px 0;border-bottom:1px dotted var(--blue)}
+.item-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.item h3{margin:0;font-weight:700;font-size:24px}
+.price{font-weight:700;font-size:22px;white-space:nowrap;color:var(--red)}
+.item p{margin:6px 0 0;font-size:17px;color:var(--muted)}
+.dark{background:var(--blue);color:var(--paper)}
+.dark-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px 28px;margin-bottom:48px}
+.dark-head h2{margin:0}
+.dark-head p{margin:0;font-size:20px;color:var(--butter)}
+.reviews{display:flex;flex-wrap:wrap;gap:48px 56px}
+.review{flex:1 1 320px;min-width:0;margin:0;padding-top:20px;border-top:3px solid var(--butter)}
+.review blockquote{margin:0 0 16px;font-family:'Frank Ruhl Libre',serif;font-size:24px;line-height:1.45}
+.review figcaption{font-weight:600;color:var(--butter)}
+.contact{background:var(--butter)}
+.contact .wrap{display:flex;flex-wrap:wrap;gap:48px}
+.contact .col{flex:1 1 360px;min-width:0}
+.contact h2{margin-bottom:24px}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:14px 24px;font-size:20px}
+dt{font-weight:700}
+dd{margin:0}
+.hours{display:grid;grid-template-columns:max-content 1fr;gap:6px 20px}
+.navblock{flex:1 1 360px;min-width:0;min-height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:32px;background:var(--blue);color:var(--paper);text-align:center}
+.navblock img{width:90px;height:90px;display:block}
+.navblock .btn{background:var(--butter);color:var(--blue)}
+footer{padding:28px 56px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;font-size:16px}
+footer strong{font-family:'Frank Ruhl Libre',serif;font-weight:900;font-size:22px}
+@media (max-width:700px){
+ .topbar,.hero,section.pad,footer{padding-left:20px;padding-right:20px}
+ .hero{padding-top:32px;padding-bottom:56px}
+ section.pad{padding-top:56px;padding-bottom:48px}
+ h2{font-size:36px}
+ .hero p{font-size:19px}
+ .review blockquote{font-size:21px}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#top" aria-label="Delino, לראש הדף"><img src="delino-logo.png" alt="Delino – Baked goods, eats, coffee" width="72" height="72"></a>
+  <nav aria-label="ראשי">
+    <a href="#menu">תפריט</a>
+    <a href="#reviews">ביקורות</a>
+    <a href="#contact">יצירת קשר</a>
+    <a class="call" href="tel:089160706">08-916-0706</a>
+  </nav>
+</header>
+
+<main>
+<!-- כדי להוסיף תמונה ראשית: הוסיפו קובץ תמונה לתיקייה והכניסו כאן תג img -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <h1>בית קפה וקונדיטוריה בבאר שבע</h1>
+    <p>מאפי חמאה טריים, כריכים, פיצות, פסטה וקפה. לארוחת בוקר, לבראנץ' או לארוחת ערב.</p>
+    <div class="btns">
+      <a class="btn primary" href="#menu">לתפריט המלא</a>
+      <a class="btn line" href="tel:089160706">התקשרו: 08-916-0706</a>
+    </div>
+    <p class="rating">דירוג 4.4 מתוך 5, על סמך 74 ביקורות ב-Google</p>
+  </div>
+</section>
+
+<section class="pad" id="menu">
+  <div class="wrap">
+    <h2>התפריט</h2>
+    <p class="lead">המחירים בשקלים. בחרו קטגוריה.</p>
+    <div class="tabs"><button type="button" class="tab" data-target="cat0" aria-pressed="true">מאפים</button><button type="button" class="tab" data-target="cat1" aria-pressed="false">כריכים</button><button type="button" class="tab" data-target="cat2" aria-pressed="false">פיצות</button><button type="button" class="tab" data-target="cat3" aria-pressed="false">פסטה</button><button type="button" class="tab" data-target="cat4" aria-pressed="false">סלטים</button><button type="button" class="tab" data-target="cat5" aria-pressed="false">קישים</button><button type="button" class="tab" data-target="cat6" aria-pressed="false">בורקסים</button><button type="button" class="tab" data-target="cat7" aria-pressed="false">לחמים ופוקאצ׳ות</button><button type="button" class="tab" data-target="cat8" aria-pressed="false">עוגות ועוגיות</button></div>
+    <ul class="items" id="cat0"><li class="item"><div class="item-head"><h3>קרואסון חמאה</h3><span class="price">16 ₪</span></div><p>מאפה צרפתי קלאסי עשיר בחמאה בעל 25 שכבות של בצק וחמאה</p></li><li class="item"><div class="item-head"><h3>פה או שוקולה</h3><span class="price">17 ₪</span></div><p>מאפה צרפתי קלאסי מבצק קרואסון עם אצבעות שוקולד מריר</p></li><li class="item"><div class="item-head"><h3>קרואסון שוקולד ושקדים</h3><span class="price">26 ₪</span></div><p>מאפה צרפתי קלאסי מבצק קרואסון עם אצבעות שוקולד מריר וקרם שקדים</p></li><li class="item"><div class="item-head"><h3>קרואסון שקדים</h3><span class="price">25 ₪</span></div><p>מאפה קרואסון חמאה במילוי קרם שקדים ושקדים פרוסים מעל</p></li><li class="item"><div class="item-head"><h3>קרוקי</h3><span class="price">28 ₪</span></div><p>קרואסון עם בצק עוגיות</p></li><li class="item"><div class="item-head"><h3>שוסון או פום</h3><span class="price">24 ₪</span></div><p>מאפה בצק עלים/קרואסון עם מלית תפוחי עץ ותבלינים</p></li><li class="item"><div class="item-head"><h3>פה סוויס</h3><span class="price">24 ₪</span></div><p>קרם פטיסייר ושוקולד צ׳יפס</p></li><li class="item"><div class="item-head"><h3>דניש פירות</h3><span class="price">28 ₪</span></div><p>מאפה מבצק קרואסון פתוח בתוספת קרם פטיסייר ופרי משתנה</p></li><li class="item"><div class="item-head"><h3>רול שוקולד</h3><span class="price">26 ₪</span></div><p>עיגול מבצק קרואסון במילוי קרם פטיסייר שוקולד ופצפוצי שוקולד</p></li><li class="item"><div class="item-head"><h3>גבינית ריקוטה ופירות יער</h3><span class="price">25 ₪</span></div><p>מאפה מבצק קרואסון שחור במילוי קרם ריקוטה הדרים, פירות יער וקראמבל שקדים</p></li><li class="item"><div class="item-head"><h3>רול גבינות מלוח</h3><span class="price">25 ₪</span></div><p>פטה, שמנת, פרמזן, מוצרלה וטימין בבצק קרואסון</p></li><li class="item"><div class="item-head"><h3>סוויס בטטה</h3><span class="price">26 ₪</span></div><p>מאפה במילוי בטטה, גבינות (גאודה, פרמז׳ן ובולגרית) וחלפיניו</p></li><li class="item"><div class="item-head"><h3>בוסטוק פקאן וקרמל מלוח</h3><span class="price">26 ₪</span></div><p>פרוסת בריוש עם פרציפן פקאן, פקאנים וקרמל מלוח</p></li><li class="item"><div class="item-head"><h3>בוסטוק שקדים ופירות יער</h3><span class="price">26 ₪</span></div><p>פרוסות בצק בריוש עם קרם שקדים ופירות יער, שקדים קלויים ואבקת סוכר</p></li><li class="item"><div class="item-head"><h3>בריוש גבינה</h3><span class="price">26 ₪</span></div><p>בצק בריוש במילוי קרם גבינה, רוטב תותים ופירות יער וקרמבל שקדים</p></li><li class="item"><div class="item-head"><h3>סינבון</h3><span class="price">26 ₪</span></div><p>מאפה מבצק שמרים במילוי סוכר חום וקינמון</p></li><li class="item"><div class="item-head"><h3>מריטוצ׳ו</h3><span class="price">21 ₪</span></div><p>לחמנית בריוש איטלקי במילוי קרם מסקרפונה</p></li><li class="item"><div class="item-head"><h3>רוגלך</h3><span class="price">6 ₪</span></div><p>מאפה שמרים במילוי שוקולד</p></li></ul><ul class="items" id="cat1" hidden><li class="item"><div class="item-head"><h3>קרואסון קפרזה</h3><span class="price">41 ₪</span></div><p>קרם פרש, מוצרלה פרסקה, שרי צלויות, זיתי קלמטה ובזיליקום</p></li><li class="item"><div class="item-head"><h3>פרעצל ברי וחמאת אגוזים</h3><span class="price">39 ₪</span></div><p>חמאת בזיליקום, ריבת בצל, ארוגולה, גבינת ברי ואגוזי מלך</p></li><li class="item"><div class="item-head"><h3>כריך כרוב צלוי</h3><span class="price">38 ₪</span></div><p>טחינת בוטנים, כרוב צלוי, סלק, פיסטוק וארוגולה</p></li><li class="item"><div class="item-head"><h3>כריך סלט ביצים ואבוקדו</h3><span class="price">37 ₪</span></div><p>סלט ביצים (בצל מטוגן), אבוקדו, חסה לאליק, עגבניה ועירית</p></li><li class="item"><div class="item-head"><h3>בורקסביח</h3><span class="price">34 ₪</span></div><p>טחינה, חציל אפוי, עגבניה, ביצה קשה ופטרוזיליה</p></li><li class="item"><div class="item-head"><h3>ביס גאודה</h3><span class="price">22 ₪</span></div><p>לחמנית פרעצל, חמאת בזיליקום, גאודה, תפוח גרני סמית, חסה לאליק וארוגולה</p></li><li class="item"><div class="item-head"><h3>ביס סלט ביצים</h3><span class="price">22 ₪</span></div><p>לחמנית חלב, סלט ביצים, חסה לאליק, עגבניה ועירית</p></li><li class="item"><div class="item-head"><h3>ביס טונה</h3><span class="price">21 ₪</span></div><p>לחמנית דגנים, סלט טונה במיונז, סלרי, עגבניה ונבטי אלפלפא</p></li></ul><ul class="items" id="cat2" hidden><li class="item"><div class="item-head"><h3>ברי ודבש חריף</h3><span class="price">98 ₪</span></div><p>מוצרלה, ברי פקאן, דבש, צ׳ילי טרי, טימין, שמן זית, אורוגולה ופרמזן</p></li><li class="item"><div class="item-head"><h3>קפרזה</h3><span class="price">98 ₪</span></div><p>רוטב עגבניות, מוצרלה, פרמזן, בזיליקום, זיתי קלמטה, גבינת סטרציאטלה וחומץ בלסמי מצומצם</p></li><li class="item"><div class="item-head"><h3>טרטופו</h3><span class="price">98 ₪</span></div><p>מוצרלה, פטריות פורטובלו ושימגי צלויות, בצל סגול, שמן כמהין, טימין, ארוגולה, מלח ים ופרמזן</p></li><li class="item"><div class="item-head"><h3>גריק</h3><span class="price">96 ₪</span></div><p>רוטב עגבניות, מוצרלה, בצל סגול, זיתי קלמטה, גבינת פטה, צ׳ילי חריף ופטרוזיליה</p></li><li class="item"><div class="item-head"><h3>מרגריטה</h3><span class="price">92 ₪</span></div><p>רוטב עגבניות, גבינת מוצרלה, פרמזן, שמן זית ובזיליקום</p></li><li class="item"><div class="item-head"><h3>סלייס קפרזה</h3><span class="price">21 ₪</span></div><p>רוטב עגבניות, מוצרלה, פרמזן, בזיליקום, זיתי קלמטה, גבינת סטרציאטלה וחומץ בלסמי מצומצם</p></li><li class="item"><div class="item-head"><h3>סלייס גריק</h3><span class="price">21 ₪</span></div><p>רוטב עגבניות, מוצרלה, בצל סגול, זיתי קלמטה, גבינת פטה, צ׳ילי חריף ופטרוזיליה</p></li><li class="item"><div class="item-head"><h3>סלייס מרגריטה</h3><span class="price">18 ₪</span></div><p>רוטב עגבניות, גבינת מוצרלה, פרמזן, שמן זית ובזיליקום</p></li></ul><ul class="items" id="cat3" hidden><li class="item"><div class="item-head"><h3>קרם פסטו</h3><span class="price">67 ₪</span></div><p>ריגטוני, רוטב שמנת, פסטו בזיליקום, פרמזן, קראסט צנוברים קלויים וגרידת לימון</p></li><li class="item"><div class="item-head"><h3>פונגי</h3><span class="price">67 ₪</span></div><p>מזי ריגטוני, פטריות שמפניון צלויות, כמהין, רוטב שמנת, פטרוזיליה, צ׳יפס ערמונים ופרמזן</p></li><li class="item"><div class="item-head"><h3>רוזה פיקנטי</h3><span class="price">67 ₪</span></div><p>פסטה קונקילי, רוטב עגבניות, בצלי שאלוט, שמנת, צ׳ילי גרוס, פרמזן, סטרציאטלה ובזיליקום</p></li><li class="item"><div class="item-head"><h3>א-לה נורמה</h3><span class="price">64 ₪</span></div><p>קונקילי, רוטב עגבניות, חצילים, זיתי קלמטה, צ׳ילי גרוס, פקורינו, מוצרלה, פטה ובזיליקום</p></li></ul><ul class="items" id="cat4" hidden><li class="item"><div class="item-head"><h3>סלט עדשים שחורות ולאבנה</h3><span class="price">58 ₪</span></div><p>עדשים שחורות אורגניות, בטטה צלויה, עלי תרד, בצל סגול, פטרוזיליה, נענע, סלרי, חמוציות וקשיו מסוכר בויניגרט הדרים על גבינת לאבנה</p></li><li class="item"><div class="item-head"><h3>סלט טונה ואבוקדו</h3><span class="price">58 ₪</span></div><p>חסה לאליק, אורוגולה, עגבניות שרי, אבוקדו, זיתי קלמטה וסלט טונה בויניגרט הדרים</p></li><li class="item"><div class="item-head"><h3>סלט ישראלי</h3><span class="price">56 ₪</span></div><p>אורוגולה, עגבניות גינה, מלפפון, בצל סגול, גרגירי חומוס, ביצה קשה מגורדת, פטרוזיליה, קרוטוני לחם מחמצת וטחינה בויניגרט נענע</p></li><li class="item"><div class="item-head"><h3>סלט יווני</h3><span class="price">52 ₪</span></div><p>חסה לאליק, עגבניה, מלפפון, בצל סגול, זיתי קלמטה, גבינת פטה וזעתר בויניגרט שמן זית ולימון</p></li></ul><ul class="items" id="cat5" hidden><li class="item"><div class="item-head"><h3>קיש בצל אישי</h3><span class="price">39 ₪</span></div><p>קיש מבצק פריך במילוי גבינות, בצל, כרישה ויין לבן. יש להפשיר לילה במקרר לפני הגשה</p></li><li class="item"><div class="item-head"><h3>קיש בטטה אישי</h3><span class="price">39 ₪</span></div><p>קיש מבצק פריך במילוי בטטה וגבינות. יש להפשיר לילה במקרר לפני הגשה</p></li><li class="item"><div class="item-head"><h3>קיש פטריות אישי</h3><span class="price">39 ₪</span></div><p>קיש מבצק פריך במילוי גבינות ופטריות. יש להפשיר לילה במקרר לפני הגשה</p></li><li class="item"><div class="item-head"><h3>קיש ברוקולי אישי</h3><span class="price">39 ₪</span></div><p>קיש מבצק פריך במילוי גבינות וברוקולי. יש להפשיר לילה במקרר לפני הגשה</p></li></ul><ul class="items" id="cat6" hidden><li class="item"><div class="item-head"><h3>בורקס תפו״א</h3><span class="price">21 ₪</span></div><p>בורקס במילוי תפוח אדמה, בצל מקורמל, שום קונפי וטימין</p></li><li class="item"><div class="item-head"><h3>בורקס גבינה קלאסי</h3><span class="price">19 ₪</span></div><p>בצק עלים במילוי מיקס גבינות</p></li><li class="item"><div class="item-head"><h3>מקל פרמזן</h3><span class="price">9 ₪</span></div><p>מאפה בצק קרואסון עם תערובת גבינות קשות</p></li></ul><ul class="items" id="cat7" hidden><li class="item"><div class="item-head"><h3>באגט מחמצת צרפתי</h3><span class="price">17 ₪</span></div><p>90% קמח לבן ו-10% קמח מלא</p></li><li class="item"><div class="item-head"><h3>פוקצ׳ת גבינות</h3><span class="price">16 ₪</span></div><p>בצק אוורירי עם מוצרלה ופרמז׳ן מעל</p></li><li class="item"><div class="item-head"><h3>פוקצ׳ת פיצוחים</h3><span class="price">16 ₪</span></div><p>בצק אוורירי בציפוי שומשום, חמניה, דלעת ופשתן (טבעוני)</p></li><li class="item"><div class="item-head"><h3>פוקצ׳ת שמן זית ואורגנו</h3><span class="price">15 ₪</span></div><p>בצק אוורירי עם שמן זית ואורגנו (טבעוני)</p></li><li class="item"><div class="item-head"><h3>שישיית לחמניות חלב</h3><span class="price">27 ₪</span></div><p>לחמניה יפנית רכה</p></li><li class="item"><div class="item-head"><h3>מארז בייגל פרעצל</h3><span class="price">26 ₪</span></div><p>מארז של שלושה בייגל פרעצל בציפוי שומשום</p></li></ul><ul class="items" id="cat8" hidden><li class="item"><div class="item-head"><h3>פס גבינה אפויה</h3><span class="price">79 ₪</span></div><p>עוגת גבינה אפויה ״ניו יורקית״ ביתית, עשירה מאוד, על מצע של עוגיות חמאה. בציפוי קרם וניל</p></li><li class="item"><div class="item-head"><h3>פס גבינה אפויה ללא סוכר</h3><span class="price">79 ₪</span></div><p>עוגת גבינה אפויה ״ניו יורקית״ ביתית, עשירה מאוד, על מצע של עוגיות חמאה בציפוי קרם שנטילי וניל ללא תוספת סוכר</p></li><li class="item"><div class="item-head"><h3>פס טירמיסו</h3><span class="price">79 ₪</span></div><p>שכבות של בישקוטים ספוגים באספרסו, קרם גבינת מסקרפונה בשילוב של ליקר קפה</p></li><li class="item"><div class="item-head"><h3>פס בואנו</h3><span class="price">79 ₪</span></div><p>קרם שוקולד ונוגט על מרנג אגוזי לוז, שוקולד ונוגט קראנצ׳י, בציפוי של גנאש שוקולד מריר</p></li><li class="item"><div class="item-head"><h3>פס קרמשניט</h3><span class="price">79 ₪</span></div><p>שכבות בצק עלים מקורמל משולבים בקרם פטיסייר</p></li><li class="item"><div class="item-head"><h3>פס אלפחורס</h3><span class="price">79 ₪</span></div><p>שכבות של בצק אלפחורס, קרם ריבת חלב וקרם קוקוס, ובציפוי טופי קרמל מקושט בריבת חלב וקוקוס קלוי</p></li><li class="item"><div class="item-head"><h3>פס נוצ׳ולה טבעוני (פרווה)</h3><span class="price">79 ₪</span></div><p>שכבות של קרם שוקולד בלגי וקרם פרלינה אגוזים, על מצע קריספי של שוקולד ונוגט, בציפוי קראנצ׳י שוקולד</p></li><li class="item"><div class="item-head"><h3>אינגליש פאי פקאן טבעוני פרווה</h3><span class="price">66 ₪</span></div><p>פאי אגוזי מלך, אגוזי לוז ואגוזי פקאן בקרמל טופי</p></li><li class="item"><div class="item-head"><h3>אינגליש פאי פיסטוק ופירות יער</h3><span class="price">69 ₪</span></div><p>בסיס פאי במילוי קרם פיסטוק ופירות יער</p></li><li class="item"><div class="item-head"><h3>אינגליש פאי לימון מרנג</h3><span class="price">69 ₪</span></div><p>בצק פאי פריך במילוי קרם לימון ומרנג מעל</p></li><li class="item"><div class="item-head"><h3>אינגליש קראמבל תפוחים</h3><span class="price">69 ₪</span></div><p>פאי תפוחים בשילוב קינמון במעטפת קראמבל פריך</p></li><li class="item"><div class="item-head"><h3>בחושה וניל נוטלה ללא קמח</h3><span class="price">51 ₪</span></div><p>עוגה בחושה וניל נוטלה ללא קמח. יש להפשיר כ-3 שעות לפני הגשה</p></li><li class="item"><div class="item-head"><h3>בחושה קפה ועוגיות</h3><span class="price">46 ₪</span></div><p>עוגה בחושה בטעם קפה בציפוי בצק עוגיות פריך. יש להפשיר כ-3 שעות לפני הגשה</p></li><li class="item"><div class="item-head"><h3>בחושה גזר ללא סוכר</h3><span class="price">52 ₪</span></div><p>עוגה בחושה עם גזר ללא תוספת סוכר. יש להפשיר כ-3 שעות לפני הגשה</p></li><li class="item"><div class="item-head"><h3>בחושה בננה ושוקולד טבעוני (פרווה)</h3><span class="price">46 ₪</span></div><p>בחושה בננה ושוקולד טבעוני. יש להפשיר כ-3 שעות לפני הגשה</p></li><li class="item"><div class="item-head"><h3>קראנץ׳ שוקולד</h3><span class="price">58 ₪</span></div><p>במילוי קקאו, שוקולד מריר וחלב</p></li><li class="item"><div class="item-head"><h3>עוגיית אמסטרדם</h3><span class="price">19 ₪</span></div><p>עוגיית אמסטרדם במילוי שוקולד לבן</p></li><li class="item"><div class="item-head"><h3>עוגיית שוקוצ׳יפס מושחתת</h3><span class="price">19 ₪</span></div><p>עוגיית שוקולד צ׳יפס מושחתת עשויה משוקולד חום, לבן ומריר</p></li></ul>
+  </div>
+</section>
+
+<section class="pad dark" id="reviews">
+  <div class="wrap">
+    <div class="dark-head"><h2>מה אומרים עלינו</h2><p>4.4 מתוך 5 · 74 ביקורות ב-Google</p></div>
+    <div class="reviews"><figure class="review"><blockquote>ההאני באטר טוסט ממש טעים, הברד פודינג והכריך ביצים נחמדים. השירות היה מהיר והעיצוב חמוד.</blockquote><figcaption>Michal Katz</figcaption></figure><figure class="review"><blockquote>סוף סוף בית קפה נורמלי בשכונת נווה נוי. אטמוספירה נעימה מאוד, האוכל איכותי ביותר.</blockquote><figcaption>Tom Rubin</figcaption></figure><figure class="review"><blockquote>הקפה היה מדויק וטעים, והמאפים ברמה גבוהה וטריים מאוד.</blockquote><figcaption>Sheren Abu Abayed</figcaption></figure><figure class="review"><blockquote>להיות בבאר שבע ולהרגיש בפריז. החל מכלי הגשה מהממים ופינות ישיבה מושלמות ועד השירות של כולם!</blockquote><figcaption>Noa Sarosi</figcaption></figure><figure class="review"><blockquote>הרוזה פיקנטי היה קטלני והיין שרדונה של עברי היה מעולה.</blockquote><figcaption>יובל אלקלעי</figcaption></figure><figure class="review"><blockquote>שפע ומגוון רחב של מאכלים. הכל בטוב טעם, נעים, נקי ושירות מעולה.</blockquote><figcaption>Dganit Oknin</figcaption></figure></div>
+  </div>
+</section>
+
+<section class="pad contact" id="contact">
+  <div class="wrap">
+    <div class="col">
+      <h2>יצירת קשר</h2>
+      <dl>
+        <dt>טלפון</dt><dd><a href="tel:089160706" style="font-weight:600">08-916-0706</a></dd>
+        <dt>כתובת</dt><dd>הע״ל 30, באר שבע</dd>
+        <dt>שעות פתיחה</dt>
+        <dd><div class="hours"><span>ראשון עד חמישי</span><span>7:30–22:00</span><span>שישי</span><span>7:30–14:00</span><span>שבת</span><span>סגור</span></div></dd>
+      </dl>
+    </div>
+    <div class="navblock">
+      <img src="delino-logo.png" alt="" width="90" height="90">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%A2%D7%B4%D7%9C%2030%2C%20%D7%91%D7%90%D7%A8%20%D7%A9%D7%91%D7%A2" target="_blank" rel="noopener">ניווט בגוגל מפות</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="dark">
+  <strong>Delino</strong>
+  <span>הע״ל 30, באר שבע · 08-916-0706</span>
+</footer>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(x){x.setAttribute('aria-pressed',x===t?'true':'false');});
+      document.querySelectorAll('.items').forEach(function(p){p.hidden=(p.id!==t.dataset.target);});
+    });
+  });
+})();
+</script>
+</body>
+</html>
